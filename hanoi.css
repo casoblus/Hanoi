@@ -1,0 +1,44 @@
+body{
+  margin:0 auto;
+  background: #aaa;
+}
+.tower {
+  border-bottom: 8px solid;
+  width: 32%;
+  background: linear-gradient(to right,
+    transparent 49%,
+    white 47%,
+    whitesmoke,
+    dimgray,
+    white 52%,
+  transparent 52%)
+    no-repeat center;
+  display: flex;
+  flex-direction:column-reverse;
+  justify-content: flex-start;
+  align-items: center;
+}
+.aux {
+  display: flex;
+  justify-content: center;
+  height: 2em;
+}
+.aux+div {
+  margin: 8vh auto;
+  display: flex;
+  justify-content: space-around;
+  height: 50vh;
+  width: 50vw;
+}
+.file {
+  background: linear-gradient(to left, saddlebrown, goldenrod, gold, lightyellow, goldenrod);
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.3) inset;
+  display: block;
+  height: 30px;
+  border-radius: 5px;
+}
+h1 {
+  text-align: center;
+  color: gold;
+  text-shadow: 1px 1px lightyellow, -1px -1px saddlebrown;
+}
